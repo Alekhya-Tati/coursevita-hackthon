@@ -1,0 +1,40 @@
+/* Navbar.css */
+
+/* Navbar container */
+.navbar {
+  background-color: black !important; /* Set navbar background to black */
+ 
+}
+
+/* Navbar brand and links */ 
+.navbar-brand,
+.nav-link {
+  color: white !important; /* Set text color to white */
+}
+
+.navbar-toggler {
+  border-color: white;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28255, 255, 255, 1%29' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+  /* Use white icon for toggler */
+}
+
+.form-control {
+  border: 1px solid white; /* Set search input border to white */
+}
+
+.form-control::placeholder {
+  color: rgba(255, 255, 255, 0.5); /* Set search placeholder text color */
+}
+
+.btn-outline-success {
+  color: white; /* Set button text color */
+  border-color: white; /* Set button border color */
+}
+
+.btn-outline-success:hover {
+  background-color: white; /* Set hover background to white */
+  color: black; /* Set hover text color to black */
+}

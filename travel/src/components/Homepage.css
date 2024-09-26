@@ -1,0 +1,27 @@
+/* Home.css */
+
+.home-container {
+    height: 100vh; /* Full viewport height */
+    width: 100vw; /* Full viewport width */
+    display: flex; /* Flexbox to center content */
+    flex-direction: column; /* Vertical alignment */
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+    text-align: center; /* Center align the text */
+    background-image: url('https://images.pexels.com/photos/417074/pexels-photo-417074.jpeg?auto=compress&cs=tinysrgb&w=1400');
+    background-size: cover; /* Cover the entire container */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent repeating */
+    color: white; /* Ensure text is visible over the image */
+    margin: 0; /* Remove default margins */
+    padding: 0; /* Remove default padding */
+  }
+  
+  .home-container h2,
+  .home-container p {
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent background for readability */
+    padding: 1rem; /* Add padding for readability */
+    border-radius: 8px; /* Rounded corners */
+    margin: 1rem; /* Margin for spacing */
+  }
+  

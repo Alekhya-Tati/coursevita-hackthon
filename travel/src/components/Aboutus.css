@@ -1,0 +1,30 @@
+/* Aboutus.css */
+.aboutus-container {
+  display: flex;
+  justify-content: center; /* Center the card horizontally */
+  padding: 2rem; /* Padding inside the container */
+  margin-top: 4rem; /* Space from the navbar */
+  margin-bottom: 4rem; /* Space from the bottom */
+}
+
+.custom-card {
+  width: 50%; /* Set a wider width */
+  max-width: 800px; /* Limit the maximum width */
+  margin: 0 2rem; /* Ensure the card has space from the sides */
+  text-align: center;
+  box-shadow: 0px 10px 16px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+  border-radius: 50px; /* Rounded corners */
+  overflow: hidden; /* Ensure no overflow */
+  border: 2px solid #00FFFF; /* Set border color and width */
+}
+
+.custom-card-img {
+  height: 250px; /* Adjust height as needed */
+  object-fit: cover; /* Cover the area while maintaining aspect ratio */
+}
+
+.custom-card-body {
+  padding: 2rem; /* Optional: Add padding inside the card body */
+  background-color: black; /* Background color for the card body */
+  color: white; /* Set text color to white */
+}
